@@ -1,0 +1,46 @@
+{% extends "shared/base.html" %}
+
+{% block content %}
+  <img src="/static/img/mic.png" style="float: left; max-width: 48px; margin-right: 20px;" alt="">
+
+  <h1><span class="font-semi-bold">Python Podcasts as an API Service</span> <span
+    class="smaller">A RESTful Podcast service</span>
+  </h1>
+
+  <div style="clear:both;"></div>
+  <br>
+  <br>
+  <p class="lead">
+    The Python Podcasts as an API Service.<br>
+    <br>
+    <strong>Example Endpoints</strong>
+  <ul>
+    <li>
+      <strong>Get all podcasts</strong><br>
+      <a href="/api/podcasts/"
+         target="_blank"
+      ><strong>GET /api/podcasts</strong></a><br>
+      <br>
+    </li>
+    <li>
+      <strong>Get top 5 podcasts from TalkPython.fm</strong><br>
+      <a href="/api/podcasts/talk_python"
+         target="_blank"
+      ><strong>GET /api/podcasts/talk_python</strong></a><br>
+      <br>
+    </li>
+  </ul>
+
+  {% if urls %}
+    <div>
+      <h2>Podcasts services you can get right now:</h2>
+      <ul>
+        {% for k, v in urls.items() %}
+          <li>
+            <a href="/api/podcasts/{{ k }}" target="_blank">/api/podcasts/{{ k }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+{% endblock %}
