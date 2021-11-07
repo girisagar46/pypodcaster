@@ -1,0 +1,12 @@
+### GET the index
+GET http://127.0.0.1:8000
+Accept: application/json
+
+### GET by poscast_name
+GET http://127.0.0.1:8000/talk_python
+Accept: application/json
+
+
+### GET by poscast_name return 404
+GET http://127.0.0.1:8000/talk_python123
+Accept: application/json

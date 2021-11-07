@@ -1,0 +1,158 @@
+{
+  "talk_python": {
+    "title": "Talk Python To Me",
+    "subtitle": "Python conversations for passionate developers",
+    "publisher": "talkpythontome@michaelckennedy.net (Michael Kennedy)",
+    "summary": "Talk Python to Me is a weekly podcast hosted by developer and entrepreneur Michael Kennedy. We dive deep into the popular packages and software developers, data scientists, and incredible hobbyists doing amazing things with Python. If you're new to Python, you'll quickly learn the ins and outs of the community by hearing from the leaders. And if you've been Pythoning for years, you'll learn about your favorite packages and the hot new ones coming out of open source.",
+    "image": "https://talkpython.fm/static/img/podcast-theme-img_1400_v3.png",
+    "top_five_podcasts": [
+      {
+        "title": "#339: Making Python Faster with Guido and Mark",
+        "summary": "There has a been a bunch of renewed interested in making Python faster. While for some of us, Python is already plenty fast. For others, such as those in data science, scientific computing, and even the large tech companies, making Python even a little faster would be a big deal. This episode is the first of several that dive into some of the active efforts to increase the speed of Python while maintaining compatibility with existing code and packages.",
+        "published": "Thu, 04 Nov 2021 00:00:00 -0800",
+        "link": "https://talkpython.fm/episodes/show/339/making-python-faster-with-guido-and-mark"
+      },
+      {
+        "title": "#338: Using cibuildwheel to manage the scikit-HEP packages",
+        "summary": "How do you build and maintain a complex suite of Python packages? Of course, you want to put them on PyPI. The best format there is as a wheel. This means that when developers use your code, it comes straight down and requires no local tooling to install and use.",
+        "published": "Sun, 17 Oct 2021 00:00:00 -0800",
+        "link": "https://talkpython.fm/episodes/show/338/using-cibuildwheel-to-manage-the-scikit-hep-packages"
+      },
+      {
+        "title": "#337: Kedro for Maintainable Data Science",
+        "summary": "Have you heard of Kedro? It's a Python framework for creating reproducible, maintainable and modular data science code. We all know that reproducibility and related topics are important ones in the data science space. The freedom to pop open a notebook and just start exploring is much of the magic. Yet, that free-form style can lead to difficulties in versioning, reproducibility, collaboration, and moving to production. Solving these problems is the goal of Kedro. And we have 3 great guests from the Kedro community here to give us the rundown: Yetunde Dada, Waylon Walker, and Ivan Danov.",
+        "published": "Sat, 09 Oct 2021 00:00:00 -0800",
+        "link": "https://talkpython.fm/episodes/show/337/kedro-for-maintainable-data-science"
+      },
+      {
+        "title": "#336: Terminal magic with Rich and Textual",
+        "summary": "Have you heard of the package Rich? This library allows you to create very, well, rich terminal-based UIs in Python. When you think of what you can typically build with basic print statements, that may seem quite limited. But with Rich, imagine justified tables, progress bars, rendering of markdown, and way more. This is one of the fastest growing projects in the Python space these days. And the creator, Will McGugan is here to give is the whole history and even a peak at the future of Rich and a follow on library called Textual.",
+        "published": "Tue, 05 Oct 2021 00:00:00 -0800",
+        "link": "https://talkpython.fm/episodes/show/336/terminal-magic-with-rich-and-textual"
+      },
+      {
+        "title": "#335: Gene Editing with Python",
+        "summary": "Gene therapy holds the promise to permanently cure diseases that have been considered life-long challenges. But the complexity of rewriting DNA is truly huge and lives in its own special kind of big-data world. On this episode, you'll meet David Born, a computational biologist who uses Python to help automate genetics research and helps move that work to production.",
+        "published": "Fri, 24 Sep 2021 00:00:00 -0800",
+        "link": "https://talkpython.fm/episodes/show/335/gene-editing-with-python"
+      }
+    ]
+  },
+  "real_python": {
+    "title": "The Real Python Podcast",
+    "subtitle": "A weekly Python podcast hosted by Christopher Bailey with interviews, coding tips, and conversation with guests from the Python community.\n\nThe show covers a wide range of topics including Python programming best practices, career tips, and related software development topics.\n\nJoin us every Friday morning to hear what's new in the world of Python programming and become a more effective Pythonista.",
+    "publisher": "",
+    "summary": "",
+    "image": "https://files.realpython.com/media/real-python-logo-square.28474fda9228.png",
+    "top_five_podcasts": [
+      {
+        "title": "Exploring Django Templates, Tags, and Filters",
+        "summary": "Are you getting the most out of the Django framework? It's a powerful web framework if you're not interested in reinventing the wheel. Django includes a useful template system with inheritance for composing reusable HTML. This week on the show, we have previous guest and Real Python author Christopher Trudeau to talk about his recent articles and courses about Django.",
+        "published": "Fri, 05 Nov 2021 12:00:00 +0000",
+        "link": "https://realpython.com/podcasts/rpp/85/"
+      },
+      {
+        "title": "Creating and Manipulating PDFs in Python With borb",
+        "summary": "Have you wanted to generate PDFs from your Python project? Many of the current libraries require designing the document down at the pixel level. Would you be interested in a tool that lets you specify the page layout while it handles the specific details of laying out the text? This week on the show, we talk with Joris Schellekens about his library for creating and manipulating PDFs named borb.",
+        "published": "Fri, 29 Oct 2021 12:00:00 +0000",
+        "link": "https://realpython.com/podcasts/rpp/84/"
+      },
+      {
+        "title": "Ready to Publish Your Python Packages?",
+        "summary": "Are you interested in sharing your Python project with the broader world? Would you like to make it easily installable using pip? How do you create Python packages that share your code in a scalable and maintainable way? This week on the show, Real Python author and former guest Dane Hillard returns to talk about his new book, \"Publishing Python Packages.\"",
+        "published": "Fri, 22 Oct 2021 12:00:00 +0000",
+        "link": "https://realpython.com/podcasts/rpp/83/"
+      },
+      {
+        "title": "Welcoming the CPython Developer in Residence",
+        "summary": "Earlier this year, the Python Software Foundation announced the creation of the Developer in Residence role. The first Visionary Sponsors of the PSF have provided funding for this new role for one year. What development responsibilities does this job address? This week on the show, we talk to previous guest \u0141ukasz Langa about becoming the first CPython Developer in Residence.",
+        "published": "Fri, 15 Oct 2021 12:00:00 +0000",
+        "link": "https://realpython.com/podcasts/rpp/82/"
+      },
+      {
+        "title": "Exploring the New Features of Python 3.10",
+        "summary": "Python 3.10 is here! This week on the show, two former guests and Real Python authors return to talk about the new version. Geir Arne Hjelle's article was posted to the site Monday, and it's titled \"Python 3.10: Cool New Features for You to Try\". Christopher Trudeau's video course came out on Tuesday, and it covers the topics from the article with multiple visual examples of Python 3.10 code.",
+        "published": "Fri, 08 Oct 2021 12:00:00 +0000",
+        "link": "https://realpython.com/podcasts/rpp/81/"
+      }
+    ]
+  },
+  "python_bytes": {
+    "title": "Python Bytes",
+    "subtitle": "Developer headlines delivered directly to your earbuds",
+    "publisher": "michael@talkpython.fm (Michael Kennedy)",
+    "summary": "Python Bytes is a weekly podcast hosted by Michael Kennedy and Brian Okken. The show is a short discussion on the headlines and noteworthy news in the Python, developer, and data science space.",
+    "image": "https://pythonbytes.fm/static/img/podcast-theme-img_1400.png",
+    "top_five_podcasts": [
+      {
+        "title": "#257 Python Launcher - Launching Python Everywhere",
+        "summary": "",
+        "published": "Thu, 04 Nov 2021 00:00:00 -0800",
+        "link": "https://pythonbytes.fm/episodes/show/257/python-launcher-launching-python-everywhere"
+      },
+      {
+        "title": "#256 And the best open source project prize goes to ...",
+        "summary": "",
+        "published": "Fri, 29 Oct 2021 00:00:00 -0800",
+        "link": "https://pythonbytes.fm/episodes/show/256/and-the-best-open-source-project-prize-goes-to-..."
+      },
+      {
+        "title": "#255 Closember eve, the cure for Hacktoberfest?",
+        "summary": "",
+        "published": "Wed, 20 Oct 2021 00:00:00 -0800",
+        "link": "https://pythonbytes.fm/episodes/show/255/closember-eve-the-cure-for-hacktoberfest"
+      },
+      {
+        "title": "#254 Do Excel things, get notebook Python code with Mito",
+        "summary": "",
+        "published": "Wed, 13 Oct 2021 00:00:00 -0800",
+        "link": "https://pythonbytes.fm/episodes/show/254/do-excel-things-get-notebook-python-code-with-mito"
+      },
+      {
+        "title": "#253 A new Python for you, and for everyone!",
+        "summary": "",
+        "published": "Thu, 07 Oct 2021 00:00:00 -0800",
+        "link": "https://pythonbytes.fm/episodes/show/253/a-new-python-for-you-and-for-everyone"
+      }
+    ]
+  },
+  "profitable_python": {
+    "title": "Profitable Python",
+    "subtitle": "Profitable Python is a podcast hosted by Ben McNeill. The show is devoted to the Python developers who want to meet amazing humans and take their skills to the next level. The community built around this show proudly represents\u00a0integrity, unity, and leadership through self mastery.",
+    "publisher": "",
+    "summary": "Profitable Python is a podcast hosted by Ben McNeill. The show is devoted to the Python developers who want to meet amazing humans and take their skills to the next level. The community built around this show proudly represents\u00a0integrity, unity, and leadership through self mastery.",
+    "image": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2006302/2006302-1562833807659-6cd1842f46e07.jpg",
+    "top_five_podcasts": [
+      {
+        "title": "\ud83d\udca1\ud83d\udca1 Python Cookbook | Steven Lott",
+        "summary": "<p><strong>Join the Path to Profits Challenge \ud83d\ude80\ud83e\udd11 </strong><a href=\"https://community.profitableapp.com/join\"><strong>&nbsp;</strong></a><a href=\"https://pathtoprofitschallenge.com/\"><strong>https://pathtoprofitschallenge.com</strong></a></p>\n<p><strong>The Profitable Python Presents!! Steven Lott</strong></p>\n<p><strong>Stephen has been programming since computers were large, expensive and rare. &nbsp;He started using Python in the previous millennium on a variety of projects, written a few books about python and also like sailboats.</strong></p>\n<p><strong>Buy Stephen' s New Book \ud83d\udc47\ud83d\udc47</strong></p>\n<ul>\n <li><a href=\"https://www.packtpub.com/product/modern-python-cookbook-second-edition/9781800207455\"><u><strong>https://www.packtpub.com/product/modern-python-cookbook-second-edition/9781800207455</strong></u></a></li>\n</ul>\n<p><strong>Connect with Stephen&nbsp;</strong></p>\n<ul>\n <li><a href=\"https://www.linkedin.com/in/steven-lott-029835/\"><u><strong>https://www.linkedin.com/in/steven-lott-029835/</strong></u></a></li>\n  <li><a href=\"https://github.com/slott56\"><u><strong>https://github.com/slott56</strong></u></a></li>\n  <li><a href=\"https://www.packtpub.com/product/modern-python-cookbook-second-edition/9781800207455\"><u><strong>https://www.packtpub.com/product/modern-python-cookbook-second-edition/9781800207455</strong></u></a></li>\n</ul>\n<p><strong>Connect with Profitable Python</strong></p>\n<ul>\n  <li><a href=\"https://pathtoprofitschallenge.com/\"><strong>https://pathtoprofitschallenge.com</strong></a><a href=\"https://twitter.com/bfmcneill\"><strong> <br />\n</strong></a></li>\n</ul>\n\n--- \n\nSend in a voice message: https://anchor.fm/profitablepythonfm/message",
+        "published": "Tue, 05 Jan 2021 13:02:58 GMT",
+        "link": "https://anchor.fm/profitablepythonfm/episodes/Python-Cookbook--Steven-Lott-eoiu9s"
+      },
+      {
+        "title": "\ud83d\udd25\ud83d\ude80 How to get paid well doing what you love in 3 steps",
+        "summary": "<p>Hey all you solopreneurs... Take a peek at this find the good life episode right now!<br />\n<br />\nGet ready to find what is useful and profitable so you can get paid well doing what you love (and you won't have to struggle)!<br />\n<br />\nOnce you're done with the episode, don't lose a single minute. Head on over to get a head start to get paid well doing what you love quickly at <a href=\"//instantcashinjection.com\">instantcashinjection.com</a></p>\n\n--- \n\nSend in a voice message: https://anchor.fm/profitablepythonfm/message",
+        "published": "Wed, 18 Nov 2020 01:51:59 GMT",
+        "link": "https://anchor.fm/profitablepythonfm/episodes/How-to-get-paid-well-doing-what-you-love-in-3-steps-emkfpp"
+      },
+      {
+        "title": "\ud83d\ude80\ud83e\udd11 The Quick And Easy Way To Make Things People Actually Want",
+        "summary": "Are you a tech solopreneur who is struggling to earn more in less time?\n\nDo you want to make things people actually want to buy and not build something that no one wants?\n\nStep 1: Join me on this episode right now!\n\nStep 2: Get all the details you need for how to make things people actually want right here: pathtoprofitschallenge.com\n\n--- \n\nSend in a voice message: https://anchor.fm/profitablepythonfm/message",
+        "published": "Mon, 16 Nov 2020 07:44:26 GMT",
+        "link": "https://anchor.fm/profitablepythonfm/episodes/The-Quick-And-Easy-Way-To-Make-Things-People-Actually-Want-emhn6h"
+      },
+      {
+        "title": "The World is F**cked and What To Do About it | Dallas Caley",
+        "summary": "<p><strong>Join the Path to Profits Challenge \ud83d\ude80\ud83e\udd11 </strong><a href=\"https://community.profitableapp.com/join\"><strong>&nbsp;</strong></a><a href=\"https://pathtoprofitschallenge.com\"><strong>https://pathtoprofitschallenge.com</strong></a></p>\n<p><strong>The Profitable Python Presents!! Dallas Caley</strong></p>\n<p><strong>Dallas is a software developer and author with over 15 years of professional experience in many languages including python. &nbsp;&nbsp;Enjoy the show!</strong></p>\n<p><br /></p>\n<p><strong>Minimum Viable Programmer Book</strong></p>\n<ul>\n <li><a href=\"https://www.amazon.com/Minimum-Viable-Programmer-Everything-nothing-ebook/dp/B084TZV77B/\"><u><strong>https://www.amazon.com/Minimum-Viable-Programmer-Everything-nothing-ebook/dp/B084TZV77B/</strong></u></a></li>\n</ul>\n<p><br /></p>\n<p><strong>Connect with Dallas</strong></p>\n<ul>\n <li><a href=\"https://www.quora.com/profile/Dallas-Caley\"><u><strong>https://www.quora.com/profile/Dallas-Caley</strong></u></a></li>\n <li><a href=\"https://www.linkedin.com/in/dallascaley\"><u><strong>https://www.linkedin.com/in/dallascaley</strong></u></a><a href=\"https://twitter.com/juliansequeira\"><br />\n</a></li>\n</ul>\n<p><strong>Connect with Profitable Python</strong></p>\n<ul>\n <li><a href=\"https://pathtoprofitschallenge.com\"><strong>https://pathtoprofitschallenge.com</strong></a><a href=\"https://twitter.com/bfmcneill\"><strong><br />\n</strong></a></li>\n</ul>\n\n--- \n\nSend in a voice message: https://anchor.fm/profitablepythonfm/message",
+        "published": "Fri, 13 Nov 2020 12:33:27 GMT",
+        "link": "https://anchor.fm/profitablepythonfm/episodes/The-World-is-Fcked-and-What-To-Do-About-it--Dallas-Caley-eme5ue"
+      },
+      {
+        "title": "[NEW]  How To Make Money While Still Learning to Code | Tony Siu",
+        "summary": "<p><strong>Join the Path to Profits Challenge \ud83d\ude80\ud83e\udd11 </strong><a href=\"https://community.profitableapp.com/join\"><strong>&nbsp;</strong></a><a href=\"https://pathtoprofitschallenge.com\"><strong>https://pathtoprofitschallenge.com</strong></a></p>\n<p><strong>The Profitable Python Presents!! Tony Siu</strong></p>\n<p><strong>Tony is a computer vision engineer working at a startup for generating sports video analytics. &nbsp;He is the first person that introduced the concept to me that you can get paid to learn to code. &nbsp;&nbsp;Enjoy the show!</strong></p>\n<p><strong>Connect with Tony</strong></p>\n<ul>\n <li><a href=\"https://www.linkedin.com/in/pysolver/\">https://www.linkedin.com/in/pysolver/</a></li>\n <li><a href=\"//thepysolver.com\">thepysolver.com</a></li>\n  <li><a href=\"https://twitter.com/Tony23152644\">https://twitter.com/Tony23152644</a><a href=\"https://twitter.com/juliansequeira\"><br />\n</a></li>\n</ul>\n<p><strong>Connect with Profitable Python</strong></p>\n<ul>\n  <li><a href=\"https://community.profitableapp.com/join\"><strong>&nbsp;</strong></a><a href=\"https://pathtoprofitschallenge.com\"><strong>https://pathtoprofitschallenge.com</strong></a></li>\n</ul>\n<p><br /></p>\n\n--- \n\nSend in a voice message: https://anchor.fm/profitablepythonfm/message",
+        "published": "Mon, 02 Nov 2020 04:50:02 GMT",
+        "link": "https://anchor.fm/profitablepythonfm/episodes/NEW--How-To-Make-Money-While-Still-Learning-to-Code--Tony-Siu-elt8mv"
+      }
+    ]
+  }
+}
