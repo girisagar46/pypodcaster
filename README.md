@@ -31,6 +31,12 @@ The main reason for using json file in this project is to make the application s
 
 4. Visit [localhost:8000](http://localhost:8000) in your browser.
 
+5. If you want to run tests locally, run the following command:
+
+   ```bash
+   pytest -v --cov --cov-report=term-missing
+   ```
+
 This is what index page looks like:
 
 ![index](demo_images/index.png)
