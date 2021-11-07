@@ -4,7 +4,7 @@ import fastapi
 from fastapi import responses
 
 from constants import DATA_FILE_LOCATION
-from service.postcaster_logging import logger
+from service.podcaster_logging import logger
 
 router = fastapi.APIRouter()
 

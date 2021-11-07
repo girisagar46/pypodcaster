@@ -8,7 +8,7 @@ from starlette.staticfiles import StaticFiles
 from api import podcaster_api
 from constants import DATA_FILE_LOCATION, ONE_DAY_IN_SEC
 from service.feed_generator import generate_podcasts_json
-from service.postcaster_logging import logger
+from service.podcaster_logging import logger
 from views import home
 
 api = FastAPI()
