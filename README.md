@@ -1,7 +1,18 @@
 # The Podcaster API
 
+[![unit-test](https://github.com/girisagar46/pypodcaster/actions/workflows/unit-test.yaml/badge.svg)](https://github.com/girisagar46/pypodcaster/actions/workflows/unit-test.yaml)
+
 This is a FastAPI application that provides a RESTful API for the Podcasts from different podcast's RSS feeds.
 The API response is in JSON format and only contains top 5 podcasts from the source.
+
+## About the project
+- This project uses `feedparser` to parse RSS feeds and save the parsed content in a json file.
+- The json file is saved in the `data` folder.
+- In the `main.py` file, there's a function called `bootstrap_and_schedule` which is run every day to update the json file.
+The main reason for using json file in this project is to make the application simpler and faster.
+- Serving the JSON response directly from the json file is faster.
+
+> TODO: In the future, we can use more robust data storage like Redis or PostgreSQL.
 
 ## Running it locally
 

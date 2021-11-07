@@ -22,4 +22,4 @@ jobs:
           poetry install
       - name: Execute unit test with coverage
         working-directory: .
-        run: pytest -v --cov --cov-report=term-missing unit_tests
+        run: pytest -v --cov --cov-report=term-missing
